@@ -57,7 +57,8 @@ mod tests {
         semmel.describe()
     }
 
-    // geht noch nicht
+    // geht noch nicht 
+    // https://docs.rs/mockall/latest/mockall/
     #[test]
     fn test_mock_ist_es_fertig() {
         let mut mock: MockGebaeck = MockGebaeck::new(12, String::from("asdf"));
