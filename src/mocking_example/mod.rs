@@ -46,8 +46,7 @@ mod tests {
         mock.expect_foo()
             .return_const(3);
         assert_eq!(function_to_test(&mock), 3)
-    
-}
+    }
 
 }
 
