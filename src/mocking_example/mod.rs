@@ -1,4 +1,4 @@
-use mockall::*;
+use mockall::automock;
 
 trait MyTrait {
     fn foo(&self) -> i32;
